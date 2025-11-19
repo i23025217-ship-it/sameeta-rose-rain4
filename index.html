@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rose & Rain – Fashion Blog</title>
+    <head><link rel="icon" type="image/png" href="favicon .png">
+</head>
+   
+
+
+    <style>
+        /* -------------------
+           GLOBAL STYLE
+        --------------------*/
+        body {
+            margin: 0;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background: #022859;
+            color: #5F94D9;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 20px;
+            background: #022859;
+            border-bottom: 4px solid #9973BF;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+            font-family: "Courier New", monospace;
+            font-weight: bold;
+            color: #F2F2F0;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #5F94D9;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            padding: 20px;
+            background: #022859;
+            border-bottom: 4px solid #9973BF;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 18px;
+            color: #D9B596;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #F241C3;
+        }
+
+        /* -------------------
+           SECTION
+        --------------------*/
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 32px;
+            color: #D9B596;
+            border-left: 6px solid #C5C8D9;
+            padding-left: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Blog cards */
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+        }
+
+        .post {
+            background: #731D24;
+            border: 2px solid #C5C8D9;
+            border-radius: 12px;
+            padding: 15px;
+            transition: 0.3s;
+        }
+
+        .post img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .post:hover {
+            transform: translateY(-5px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #022859;
+            margin-top: 60px;
+            border-top: 3px solid #9973BF;
+        }
+
+        footer p {
+            margin: 0;
+            color: #F2F2F0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+       <section id="home">
+    <h2>Welcome</h2>
+    <p>Step right into Rose & Rain! Your vibrant, colorful space for pure fashion inspiration, groundbreaking style, and endless creativity. Get ready to find your next bold look!</p>
+</section>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#fashion">Fashion</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home">
+        <h2>Welcome</h2>
+        <p>Welcome to <b>Rose & Rain</b> — a colourful fashion space filled with style, sketches, and inspiration.</p>
+    </section>
+
+    <!-- FASHION -->
+    <section id="fashion">
+        <h2>Latest Fashion Posts</h2>
+
+        <div class="blog-grid">
+            <div class="post">
+                <img src="image.png" `alt="Pastel Streetwear Trends 2025">
+            <h3>Pastel Streetwear Trends 2025</h3>
+                <p>A soft but bold blend of lilac, blush pink, and mint green.</p>
+            </div>
+
+            <div class="post">
+                <img src="image 2.png" alt="y2k streetwear fashion">
+                <h3> Y2K Trend Fashion </h3>
+                <p> An early 2000s inspired outfits </p>
+            </div>
+
+            <div class="post">
+                <img src="image3.png" alt="rain-inspired fashion">
+                <h3>Rain-Inspired Aesthetics</h3>
+                <p>two versatile styling options built around dark, wide-leg denim,a signature piece of the Y2K and modern streetwear look,using a consistent color palette of deep navy blue, white, and a touch of gold/yellow.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Streetwear and Y2K style are the core inspiration for this website's visuals. Explore the images and concepts that define our unique aesthetic.</p>
+        <img src="board_ .png" alt="Stylish fashion inspiration of streetwear and Y2K" style="width:100%; border:3px dashed #E7A5C9; border-radius:12px;">
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+    <h2>About</h2>
+    <p>Welcome to Rose & Rain! We are your ultimate style destination, dedicated to the freshest Streetwear trends and a bold, iconic Y2K revival. Think nostalgia meets cutting-edge fashion! Our mission is to deliver modern style inspiration and attitude in a fun, simple, and seriously engaging space.</p>
+</section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>2025 Rose & Rain – Curated with Y2K nostalgia and modern fashion.</p>
+    </footer>
+
+</body>
+</html>
